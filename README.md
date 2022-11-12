@@ -20,3 +20,6 @@ Images:
 Glide library is used to display images from URL.
 
 
+![screen-1](https://user-images.githubusercontent.com/118042729/201466552-d70a4026-f97c-4e09-9e77-a45cc15a2e4d.jpeg)
+![screen-1_1](https://user-images.githubusercontent.com/118042729/201466562-f855b9eb-d1d0-448d-ad04-4175aceaa898.jpeg)
+![screen-2](https://user-images.githubusercontent.com/118042729/201466568-68d8cdf3-a4c6-49dc-9f89-ec9fb4048a4e.jpeg)
