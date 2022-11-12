@@ -16,4 +16,3 @@ local.properties
 /.idea/misc.xml
 /.idea/*
 sonar.xml
-apikey.properties
