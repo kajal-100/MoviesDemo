@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MoviesDemo</string>
+    <string name="some_error_occurred">Some error occurred. Please try again.</string>
+    <string name="sort_by">Sort By</string>
+    <string-array name="sort_by_items">
+        <item>Popularity -High to Low</item>
+        <item>Rating -High to Low</item>
+        <item>Popularity -Low to High</item>
+        <item>Rating -Low to High</item>
+    </string-array>
+    <string name="bullet_symbol">\u2022</string>
+    <string name="released_on">\u2022 Released on %1$s</string>
+    <string name="overview">Overview</string>
+    <string name="please_connect_to_internet">Please connect to Internet.</string>
+    <string name="oops_something_went_wrong">Oops! Something went wrong.</string>
+    <string name="no_network_connection">No Network Connection!</string>
+
+</resources>

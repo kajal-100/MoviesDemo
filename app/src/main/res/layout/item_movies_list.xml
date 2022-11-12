@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="movieResult"
+            type="com.assignment.moviesdemo.models.Result" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_10sdp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/placeholder"
+            android:id="@+id/ivMovie"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            app:posterImageSmall="@{movieResult.posterPath}"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tvMovieName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextViewHeader"
+            android:paddingStart="@dimen/_4sdp"
+            android:paddingEnd="@dimen/_4sdp"
+            android:paddingTop="@dimen/_4sdp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="@{movieResult.originalTitle}"
+
+            />
+
+        <TextView
+            android:id="@+id/tvReleaseDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextViewNormal"
+            android:paddingStart="@dimen/_4sdp"
+            android:paddingEnd="@dimen/_4sdp"
+            app:releaseDate ="@{movieResult.releaseDate}"
+
+            />
+
+    </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</layout>
